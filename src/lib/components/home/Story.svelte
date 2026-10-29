@@ -101,10 +101,9 @@
 	}
 
 	.facts {
-		display: grid;
-		grid-template-columns: repeat(3, minmax(0, 1fr));
+		display: flex;
+		flex-wrap: wrap;
 		gap: 16px;
-		margin: 18px 0 0;
 	}
 
 	.facts div {
@@ -137,6 +136,13 @@
 
 		.portrait {
 			max-width: 460px;
+		}
+		.facts {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			
+			flex-direction: column;
 		}
 	}
 </style>

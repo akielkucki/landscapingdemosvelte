@@ -217,12 +217,14 @@
 	form {
 		display: grid;
 		gap: 20px;
+
 	}
 
 	.grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		gap: 180px 16px;
+		gap: 18px 16px;
+
 	}
 
 	.wide {
